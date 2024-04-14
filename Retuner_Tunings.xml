@@ -3534,34 +3534,4 @@
     <SubFieldName>UpgradeTime</SubFieldName>
     <Value>30</Value>
   </XML>	
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForDecoratedBuff</FieldName>
-    <Value>20</Value>
-  </XML>
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForDirtySurroundingsBuff</FieldName>
-    <Value>-20</Value>
-  </XML>
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForNicelyDecoratedBuff</FieldName>
-    <Value>35</Value>
-  </XML>
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForBeautifullyDecoratedBuff</FieldName>
-    <Value>60</Value>
-  </XML>
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForVileSurroundingsBuff</FieldName>
-    <Value>-60</Value>
-  </XML>
-  <XML>
-    <FullClassName>Sims3.Gameplay.TuningValues.TraitTuning,Sims3GameplaySystems</FullClassName>
-    <FieldName>kProperMoodForFilthySurroundingsBuff</FieldName>
-    <Value>-35</Value>
-  </XML>
 </Tuning>
