@@ -19,6 +19,11 @@
     <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowGreetedSims, AllowOnCommunityLots</Availability>
   </ITUN>
   <ITUN>
+    <ObjectName>Sims3.Gameplay.Objects.Appliances.HotBeverageMachine</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.Appliances.HotBeverageMachine+MakeHotBeverage+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
     <ObjectName>Sims3.Gameplay.Core.Terrain</ObjectName>
     <InteractionName>Sims3.Gameplay.Pools.PondManager+IceSkateHere+Definition</InteractionName>
     <Availability>AllowOnAllLots</Availability>
@@ -27,6 +32,17 @@
     <ObjectName>Sims3.Gameplay.Objects.Electronics.Computer</ObjectName>
     <InteractionName>Sims3.Gameplay.Objects.Electronics.Computer+WriteNovel+Definition</InteractionName>
     <UserDirected>True</UserDirected>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Objects.FoodObjects.Honey</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.FoodObjects.Honey+Drink+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Objects.FoodObjects.JuiceKeg</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.FoodObjects.JuiceKeg+PourJuice+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+    <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowGreetedSims, AllowOnCommunityLots, AllowOnAllLots, AllowEvenIfNotAllowedInRoomAutonomous</Availability>
   </ITUN>
   <ITUN>
     <ObjectName>Sims3.Gameplay.Pools.DivingBoard</ObjectName>
@@ -47,11 +63,53 @@
     <ObjectName>Sims3.Gameplay.Objects.Island.Helm</ObjectName>
     <InteractionName>Sims3.Gameplay.Objects.Island.Helm+Enter+Definition</InteractionName>
     <Autonomous>False</Autonomous>
+    <UserDirected>True</UserDirected>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Objects.Seating.RockingChair</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.Seating.RockingChair+Rock+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Core.Terrain</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.Alchemy.MagicWand+CastFireBlastTerrain+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+    <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowOnCommunityLots, AllowOnAllLots</Availability>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Actors.Sim</ObjectName>
+    <InteractionName>Sims3.Gameplay.ActorSystems.TraitFunctions+ConjureApple+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Store.Objects.RoutineMachine</ObjectName>
+    <InteractionName>Sims3.Store.Objects.RoutineMachine+TeleportToShop+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Store.Objects.RoutineMachine</ObjectName>
+    <InteractionName>Sims3.Store.Objects.RoutineMachine+TeleportToWorkOrSchool+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Store.Objects.RoutineMachine</ObjectName>
+    <InteractionName>Sims3.Store.Objects.RoutineMachine+TeleportToCommunityLot+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
   </ITUN>
   <ITUN>
     <ObjectName>Sims3.Gameplay.Objects.SnowWaterFight</ObjectName>
     <InteractionName>Sims3.Gameplay.Objects.SnowWaterFight+SnowWaterFightCatch+Definition</InteractionName>
     <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowGreetedSims, AllowOnCommunityLots</Availability>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Store.Objects.RoutineMachine</ObjectName>
+    <InteractionName>Sims3.Store.Objects.RoutineMachine+TeleportToGym+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
+  </ITUN>
+  <ITUN>
+    <ObjectName>Sims3.Gameplay.Objects.Appliances.HotBeverageMachine</ObjectName>
+    <InteractionName>Sims3.Gameplay.Objects.Appliances.HotBeverageMachine+ServeHotBeverages+Definition</InteractionName>
+    <Autonomous>False</Autonomous>
   </ITUN>
   <ITUN>
     <ObjectName>Sims3.Gameplay.Objects.Miscellaneous.FacePaintingBooth</ObjectName>
@@ -67,28 +125,6 @@
     <ObjectName>Sims3.Gameplay.Objects.HobbiesSkills.SoccerGoal</ObjectName>
     <InteractionName>Sims3.Gameplay.Objects.HobbiesSkills.SoccerGoal+ShootOut+Definition</InteractionName>
     <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowGreetedSims, AllowOnCommunityLots</Availability>
-  </ITUN>
-  <ITUN>
-    <ObjectName>Sims3.Gameplay.Objects.Island.Helm</ObjectName>
-    <InteractionName>Sims3.Gameplay.Objects.Island.Helm+Enter+Definition</InteractionName>
-    <Autonomous>False</Autonomous>
-    <UserDirected>True</UserDirected>
-  </ITUN>
-  <ITUN>
-    <ObjectName>Sims3.Gameplay.Actors.Sim</ObjectName>
-    <InteractionName>Sims3.Gameplay.ActorSystems.TraitFunctions+ConjureApple+Definition</InteractionName>
-    <Autonomous>False</Autonomous>
-  </ITUN>
-  <ITUN>
-    <ObjectName>Sims3.Gameplay.Objects.FoodObjects.Honey</ObjectName>
-    <InteractionName>Sims3.Gameplay.Objects.FoodObjects.Honey+Drink+Definition</InteractionName>
-    <Autonomous>False</Autonomous>
-  </ITUN>
-  <ITUN>
-    <ObjectName>Sims3.Gameplay.Core.Terrain</ObjectName>
-    <InteractionName>Sims3.Gameplay.Objects.Alchemy.MagicWand+CastFireBlastTerrain+Definition</InteractionName>
-    <Autonomous>False</Autonomous>
-    <Availability>AllowNonGreetedSimsIfObjectOutsideAutonomous, AllowNonGreetedSimsIfObjectOutsideUserDirected, AllowOnCommunityLots, AllowOnAllLots</Availability>
   </ITUN>
   <Social>
     <!-- This is the default set, do not alter or remove -->
