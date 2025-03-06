@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+f<?xml version="1.0" encoding="utf-8"?>
 <Tuning>
   <ITUN>
     <!-- This is the default set, do not alter or remove -->
@@ -3267,12 +3267,12 @@
   <XML>
     <FullClassName>Sims3.Gameplay.ActorSystems.Pregnancy,Sims3GameplaySystems</FullClassName>
     <FieldName>kChanceOfTriplets</FieldName>
-    <Value>0.05</Value>
+    <Value>0.01</Value>
   </XML>
   <XML>
     <FullClassName>Sims3.Gameplay.ActorSystems.Pregnancy,Sims3GameplaySystems</FullClassName>
     <FieldName>kChanceOfTwins</FieldName>
-    <Value>0.1</Value>
+    <Value>0.02</Value>
   </XML>
   <XML>
     <FullClassName>Sims3.Gameplay.ActorSystems.Pregnancy,Sims3GameplaySystems</FullClassName>
